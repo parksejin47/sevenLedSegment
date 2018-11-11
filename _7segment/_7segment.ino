@@ -1,14 +1,14 @@
-//int count [11][10]{
-//  {1,1,1,1,1,1,1,1,1,1},//다끈거
-//  {1,1,1,1,1,1,1,1,1,1},
-//};
+/*
+  2018.11.11
+  made by sejinPark
+ */
 
 
 void setup() {
-  // put your setup code here, to run once:
+ //set pinMode
   for (int a = 2; a <= 11; a++)
   {
-    pinMode(a, OUTPUT); //안녕하세요 4,9 뭐시기 마이너스ss
+    pinMode(a, OUTPUT); 
     digitalWrite(a, HIGH);
   }
   //2번은 가운데-
@@ -20,6 +20,7 @@ void setup() {
   //10번 오른쪽 아래 ㅣ
   //11번 점
 }
+//write number"zero"
 void zero() {
   digitalWrite(2, HIGH);
   digitalWrite(3, LOW);
@@ -32,6 +33,7 @@ void zero() {
 
 
 }
+//write number"one"
 void one() {
   digitalWrite(2, HIGH);
   digitalWrite(3, HIGH);
@@ -42,6 +44,7 @@ void one() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
+//write number"two"
 void two() {
   digitalWrite(2, LOW);
   digitalWrite(3, HIGH);
@@ -52,6 +55,7 @@ void two() {
   digitalWrite(10, HIGH);
   digitalWrite(11, HIGH);
 }
+//write number"three"
 void three() {
   digitalWrite(2, LOW);
   digitalWrite(3, HIGH);
@@ -62,6 +66,7 @@ void three() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
+//write number"four"
 void four() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -72,6 +77,7 @@ void four() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
+//write number"five"
 void five() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -82,7 +88,7 @@ void five() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
-
+//write number"six"
 void six() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -93,6 +99,7 @@ void six() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
+//write number"seven"
 void seven() {
   digitalWrite(2, HIGH);
   digitalWrite(3, HIGH);
@@ -103,6 +110,7 @@ void seven() {
   digitalWrite(10, LOW);
   digitalWrite(11, HIGH);
 }
+//write number"eight"
 void eight() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -115,6 +123,7 @@ void eight() {
 
 
 }
+//write number"nine"
 void nine() {
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -139,7 +148,7 @@ void dot() {
 
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  
   zero();
   delay(1000);
   one();
