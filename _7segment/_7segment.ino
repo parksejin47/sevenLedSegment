@@ -8,7 +8,7 @@ void setup() {
   // put your setup code here, to run once:
   for (int a = 2; a <= 11; a++)
   {
-    pinMode(a, OUTPUT); //안녕하세요 4,9 뭐시기 마이너스
+    pinMode(a, OUTPUT); //안녕하세요 4,9 뭐시기 마이너스ss
     digitalWrite(a, HIGH);
   }
   //2번은 가운데-
