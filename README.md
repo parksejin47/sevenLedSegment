@@ -1,3 +1,3 @@
 # sevenLedSegment
 
-!image[](/-7segment.ps (2).png)
+!image[](-7segment.ps (2).png)
